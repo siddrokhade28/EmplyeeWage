@@ -30,9 +30,7 @@ public class Main {
                     System.out.println("----------------------------------------");
                     break;
                 case 3:
-                    System.out.println("Enter Part Time Employee Wage");
-                    int wage= s.nextInt();
-                    emp.partimeWage(wage);
+                    emp.partimeWage();
                     System.out.println("----------------------------------------");
                     break;
                 case 4:
